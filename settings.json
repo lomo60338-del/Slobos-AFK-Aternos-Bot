@@ -1,6 +1,6 @@
 const bot = mineflayer.createBot({
-    host: settings.host,
-    port: settings.port,
-    username: settings.username,
-    version: settings.version
+    host: "AvganSmp.aternos.me",
+    port: 42651,
+    username: "AFKBot123",
+    version: "1.21.1"
 });
