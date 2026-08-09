@@ -3,11 +3,5 @@
   "port": 42651,
   "username": "AFKBot123",
   "version": "1.21.1",
-  "afk": {
-    "enabled": true,
-    "interval": 5000
-  },
-  "autoReconnect": true,
-  "reconnectDelay": 5000,
-  "debug": false
+  "auto-reconnect-delay": 5000
 }
