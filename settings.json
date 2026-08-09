@@ -1,6 +1,12 @@
-const bot = mineflayer.createBot({
-    host: "AvganSmp.aternos.me",
-    port: 42651,
-    username: "AFKBot123",
-    version: "1.21.1"
-});
+{
+  "host": "AvganSmp.aternos.me",
+  "port": 42651,
+  "username": "AFKBot123",
+  "version": "1.21.1",
+  "auto-reconnect-delay": 5000,
+  "afk": {
+    "enabled": true,
+    "interval": 5000
+  },
+  "debug": false
+}
