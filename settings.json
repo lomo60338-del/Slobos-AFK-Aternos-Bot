@@ -1,12 +1,80 @@
 {
-  "host": "AvganSmp.aternos.me",
-  "port": 42651,
-  "username": "AFKBot123",
-  "version": "1.21.1",
-  "auto-reconnect-delay": 5000,
-  "afk": {
-    "enabled": true,
-    "interval": 5000
+  "name": "AFK Bot",
+  "server": {
+    "ip": "AvganSmp.aternos.me",
+    "port": 42651,
+    "version": "1.21.1",
+    "try-creative": true
   },
-  "debug": false
+  "bot-account": {
+    "username": "AFKBot123",
+    "password": "",
+    "type": "offline"
+  },
+  "utils": {
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 30000,
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "messages": ["Hello!"],
+      "repeat-delay": 60
+    }
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 3,
+      "speed": 3000
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    }
+  },
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 64,
+    "z": 0
+  },
+  "combat": {
+    "attack-mobs": false,
+    "auto-eat": false
+  },
+  "beds": {
+    "place-night": false
+  },
+  "chat": {
+    "respond": false
+  },
+  "modules": {
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
+    "chat": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": false,
+      "disconnect": false,
+      "chat": false
+    }
+  }
 }
